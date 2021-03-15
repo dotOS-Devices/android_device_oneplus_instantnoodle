@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-# Inherit from oneplus sm8250-common
--include device/oneplus/sm8250-common/BoardConfigCommon.mk
+# Inherit from oneplus instantnoodle-common
+-include device/oneplus/instantnoodle-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oneplus/instantnoodle
 

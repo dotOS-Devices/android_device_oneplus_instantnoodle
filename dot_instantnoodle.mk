@@ -24,6 +24,9 @@ $(call inherit-product, device/oneplus/instantnoodle/device.mk)
 # Inherit some common DotOS stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
 
+# DotOS Official
+DOT_OFFICIAL := true
+
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := true
 TARGET_SUPPORTS_BLUR := true
